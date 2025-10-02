@@ -1,0 +1,24 @@
+Question 1 
+
+The difference between front end and back end development is:
+·  Frontend (Client-side):
+The part of a web application that users directly see and interact with (user interface). It includes design, layout, buttons, forms, and content, usually built with HTML, CSS, and JavaScript.
+ ·  Backend (Server-side):
+The part that works behind the scenes, handling logic, databases, authentication, and communication with the frontend. It’s built using server-side languages like Python, PHP, Java, Node.js, and databases like MySQL, MongoDB.
+
+Question 4 
+When working with JavaScript, there are two common ways to make a webpage respond to user actions: using inline event handlers and using the addEventListener() method. While both approaches can achieve the same outcome, they differ significantly in terms of flexibility, maintainability, and overall best practice.
+Inline event handlers are the older and simpler approach. They involve writing JavaScript code directly inside an HTML element using attributes such as onclick, onmouseover, or onchangeit has several drawbacks. First, it mixes HTML and JavaScript, making the code harder to read and maintain. Second, each event attribute can only hold one handler, so if you try to add another piece of code to the same event, the previous one gets overwritten. Finally, inline handlers rely on global scope, which can make the code messy and difficult to manage as projects grow larger.
+On the other hand, addEventListener() represents a more modern and professional way of handling events. Instead of writing JavaScript inside the HTML, you keep your HTML clean and write the event-handling logic in a separate script.it allows multiple event listeners to be attached to the same element without overwriting each other. This means you can build more complex interactions on the same button or element.
+
+Question 5
+i)Mobile-first design is a web design strategy where developers and designers start by creating the layout and features of a website or application for the smallest screen sizes—such as smartphones—before adapting and expanding the design for larger devices like tablets and desktops.
+ii) Advantages :  
+1.Easier alignment and positioning
+2.Responsive design made simpler
+3.No clearfix hacks needed
+
+Question 6 :
+Client-side validation is performed in the user’s browser before data is sent to the server, giving instant feedback and improving user experience. Server-side validation is done on the server after submission to ensure security and data integrity, since client-side checks can be bypassed. Both are important because client-side validation enhances usability, while server-side validation protects against invalid or malicious data.
+
+
